@@ -102,12 +102,14 @@
                     <img id="social_img" src="images/linkedinsnippet.jpg" alt="">
                     <br>
                     <br>
-                    <div class="column">
-                        <img id="linkedin_img" src="images/linkedinqr.jpg" alt="">
+                    <div class="social-qr">
+                        <img class="social-qr" src="images/linkedinqr.jpg" alt="">
+                    </div>
+                    <BR>
+                    <div class="social-qr">
+                        <img class="social-qr" src="images/twitter-qr.jpg" alt="">
                     </div>
 
-                    <br>
-                    <img id="twitter_img" src="images/twitter-qr.jpg" alt="">
                     <h3>Find me on Twitter & LinkedIn</h3>
                 </div>
             </div>
@@ -116,20 +118,60 @@
 
     <section class="s1">
         <div class="main-container">
-            <h3 style="text-align: center;"></h3>
+            <h3 style="text-align: center;">Some of my Projects</h3>
             
             <div class="post-wrapper">
+                
                 <div class="post">
-
+                    <img class="thumbnail" src="images/twitter-qr.jpg" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Post Title</h6>
+                        <p class="post-intro">This is a sentence. Some more text</p>
+                    </div>
                 </div>
 
+                <div class="post">
+                    <img class="thumbnail" src="images/twitter-qr.jpg" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Post Title</h6>
+                        <p class="post-intro">This is a sentence. Some more text</p>
+                    </div>
+                </div>
+
+                <div class="post">
+                    <img class="thumbnail" src="images/linkedinqr.jpg" alt="">
+                    <div class="post-preview">
+                        <h6 class="post-title">Post Title</h6>
+                        <p class="post-intro">This is a sentence. Some more text</p>
+                    </div>
+                </div>
+            
             </div>
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            Contact
+            <h3 style="text-align: center;">Hit Me Up!</h3>
+
+            <form id="contact-form">
+                <a name="contact"></a>
+
+				<label>Name</label>
+				<input class="input-field" type="text" name="name">
+
+				<label>Subject</label>
+				<input class="input-field" type="text" name="subject">
+
+				<label>Email</label>
+				<input class="input-field" type="text" name="email">
+
+				<label>Message</label>
+				<textarea class="input-field" name="message"></textarea>
+
+                <input id="submit-btn" type="submit" value="SEND IT">
+            </form>
+
         </div>
     </section>
 
